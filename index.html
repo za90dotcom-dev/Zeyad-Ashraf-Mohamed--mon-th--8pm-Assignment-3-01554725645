@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>What's For Dinner</title>
+</head>
+
+<body>
+    <!--navar-->
+    <nav class="navbar navbar-expand-lg  py-2 px-3">
+        <div class="container-fluid">
+            <div class="nav-tittle  gap-3 d-flex align-items-center ">
+                <div class="nav-logo rounded-5  ">
+                    <i class="fa-solid fa-utensils"></i>
+                </div>
+                <div class="nav-cap">
+                    <a class="navbar-brand" href="#">What's For Dinner</a>
+                    <p>Your daily meal inspiration</p>
+                </div>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto d-flex align-items-center gap-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-bookmark"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa-solid fa-clock-rotate-left"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa-solid fa-gear"></i></a>
+                    </li>
+                    <li onclick="" class="nav-item nav-image rounded-5 ">
+                        <img class="rounded-5  " src="./images/avatar-2.jpg" alt="">
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--navar-end-->
+    <!--home-->
+    <div class="home">
+        <div class="container-fluid rounded-5 p-0 bg-white">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="home-image position-relative ">
+                        <img class="fa-text w-100 " src="./images/photo-1546069901-ba9599a7e63c.jfif" alt="">
+                        <div
+                            class="meal-rate position-absolute d-flex align align-items-center  bg-white px-3 py-2 gap-1 rounded-5">
+                            <i class="fa-solid fa-star"></i>
+                            <span class="f-2">4.5</span>
+                            <span class="f-3">(156 reviews)</span>
+                        </div>
+                        <div
+                            class="meal-det d-flex align-items-center gap-4 position-absolute justify-content-evenly text-center py-4 rounded-4">
+                            <div class="prep-time">
+                                <i class="fa-solid fa-clock orange"></i>
+                                <p class="f-3">Prep Time</p>
+                                <p class="f-2">20 min</p>
+                            </div>
+                            <div class="Clook-Time">
+                                <i class="fa-solid fa-fire-burner pink"></i>
+                                <p class="f-3">Clook Time</p>
+                                <p class="f-2">35 min</p>
+                            </div>
+                            <div class="Servings">
+                                <i class="fa-solid fa-users accordion blue"></i>
+                                <p class="f-3">Servings</p>
+                                <p class="f-2">2 people</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 mx-auto px-4 py-5">
+                    <div class="big-divaya d-flex align-items-center gap-3 ">
+                        <div class="divaya1  rounded-5 ">
+                            <span class="f-4">Easy</span>
+                        </div>
+                        <div class="divaya2 rounded-5 ">
+                            <span class="f-5">Mediterranean</span>
+                        </div>
+                    </div>
+                    <div class="meal-tittle d-flex align-content-center gap-5 mt-4">
+                        <h1>Mediterranean Quinoa Bowl</h1>
+                        <div class="meal-icon d-flex align-items-center justify-content-center gap-3">
+                            <div class="book-mark rounded-3">
+                                <i class="fa-solid fa-bookmark"></i>
+                            </div>
+                            <div class="share rounded-3">
+                                <i class="fa-solid fa-share-nodes"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="f-8">Healthy bowl with quinoa, vegetables, and tahini dressing</p>
+                    <div class="warning d-flex align-items-center  gap-3 rounded-3">
+                        <div class="warning-icon">
+                            <i class="fa-solid fa-triangle-exclamation text-danger"></i>
+                        </div>
+                        <div class="warning-cap ">
+                            <p class="f-6">Extended Preparation Time</p>
+                            <p class="f-7">This recipe requires more than 45 minutes to prepare. Plan accordingly!</p>
+                        </div>
+                    </div>
+                    <nav>
+                        <div class="nav nav-tabs mt-4 d-flex gap-4" id="nav-tab" role="tablist">
+                            <button class="nav-link active" id="nav-Ingredients-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-Ingredients" type="button" role="tab"
+                                aria-controls="nav-Ingredients" aria-selected="true"><i
+                                    class="fa-solid fa-list-check"></i> Ingredients</button>
+                            <button class="nav-link" id="nav-Instructions-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-Instructions" type="button" role="tab"
+                                aria-controls="nav-Instructions" aria-selected="false"><i
+                                    class="fa-solid fa-book-open"></i> Instructions</button>
+                            <button class="nav-link" id="nav-Nutrition-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-Nutrition" type="button" role="tab" aria-controls="nav-Nutrition"
+                                aria-selected="false"><i class="fa-solid fa-chart-pie"></i> Nutrition</button>
+                            <button class="nav-link" id="nav-ChefsTips-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-ChefsTips" type="button" role="tab" aria-controls="nav-ChefsTips"
+                                aria-selected="false"><i class="fa-solid fa-lightbulb"></i> Chef's Tips</button>
+                        </div>
+                    </nav>
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="nav-Ingredients" role="tabpanel"
+                            aria-labelledby="nav-Ingredients-tab" tabindex="0">
+                            <div class="container my-4  rounded-4">
+                                <div class="big-index d-flex align-items-center gap-3">
+                                    <div class="number-of-index f-9 rounded-circle ">
+                                        1
+                                    </div>
+                                    <div class="index-det f-10">
+                                        1 cup quinoa
+                                    </div>
+                                </div>
+                                <div class="big-index d-flex align-items-center gap-3">
+                                    <div class="number-of-index f-9 rounded-circle ">
+                                        2
+                                    </div>
+                                    <div class="index-det f-10">
+
+                                        Cherry tomatoes, halved
+                                    </div>
+                                </div>
+                                <div class="big-index d-flex align-items-center gap-3">
+                                    <div class="number-of-index f-9 rounded-circle ">
+                                        3
+                                    </div>
+                                    <div class="index-det f-10">
+                                        Cucumber, diced
+                                    </div>
+                                </div>
+                                <div class="big-index d-flex align-items-center gap-3">
+                                    <div class="number-of-index f-9 rounded-circle ">
+                                        4
+                                    </div>
+                                    <div class="index-det f-10">
+                                        Red onion, sliced
+                                    </div>
+                                </div>
+                                <div class="big-index d-flex align-items-center gap-3">
+                                    <div class="number-of-index f-9 rounded-circle ">
+                                        5
+                                    </div>
+                                    <div class="index-det f-10">
+                                        Kalamata olives
+                                    </div>
+                                </div>
+                                <div class="big-index d-flex align-items-center gap-3">
+                                    <div class="number-of-index f-9 rounded-circle ">
+                                        6
+                                    </div>
+                                    <div class="index-det f-10">
+                                        Feta cheese, crumbled
+                                    </div>
+                                </div>
+                                <div class="big-index d-flex align-items-center gap-3">
+                                    <div class="number-of-index f-9 rounded-circle ">
+                                        7
+                                    </div>
+                                    <div class="index-det f-10">
+                                        Fresh parsley
+                                    </div>
+                                </div>
+                                <div class="big-index d-flex align-items-center gap-3">
+                                    <div class="number-of-index f-9 rounded-circle ">
+                                        8
+                                    </div>
+                                    <div class="index-det f-10">
+                                        Tahini dressing
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-Instructions" role="tabpanel"
+                            aria-labelledby="nav-Instructions-tab" tabindex="0">
+                            <div class="big-index2 d-flex align-items-center gap-3 ">
+                                <div class="number-of-index2 rounded-4 f-11">
+                                    1
+                                </div>
+                                <div class="index2-det f-12">
+                                    Rinse quinoa thoroughly. Cook according to package directions, usually 15 minutes.
+                                </div>
+                            </div>
+                            <div class="big-index2 d-flex align-items-center gap-3 ">
+                                <div class="number-of-index2 rounded-4 f-11">
+                                    2
+                                </div>
+                                <div class="index2-det f-12">
+                                    While quinoa cooks, prepare all vegetables and set aside.
+                                </div>
+                            </div>
+                            <div class="big-index2 d-flex align-items-center gap-3 ">
+                                <div class="number-of-index2 rounded-4 f-11">
+                                    3
+                                </div>
+                                <div class="index2-det f-12">
+                                    For tahini dressing: mix tahini, lemon juice, garlic, and water until smooth.
+                                </div>
+                            </div>
+                            <div class="big-index2 d-flex align-items-center gap-3 ">
+                                <div class="number-of-index2 rounded-4 f-11">
+                                    4
+                                </div>
+                                <div class="index2-det f-12">
+                                    Fluff cooked quinoa with a fork and let cool slightly.
+                                </div>
+                            </div>
+                            <div class="big-index2 d-flex align-items-center gap-3 ">
+                                <div class="number-of-index2 rounded-4 f-11">
+                                    5
+                                </div>
+                                <div class="index2-det f-12">
+                                    Arrange quinoa in bowls. Top with tomatoes, cucumber, onion, and olives.
+                                </div>
+                            </div>
+                            <div class="big-index2 d-flex align-items-center gap-3 ">
+                                <div class="number-of-index2 rounded-4 f-11">
+                                    6
+                                </div>
+                                <div class="index2-det f-12">
+                                    Sprinkle with feta cheese and fresh parsley. Drizzle with tahini dressing.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-Nutrition" role="tabpanel"
+                            aria-labelledby="nav-Nutrition-tab" tabindex="0">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="effictive">
+                                        <div class="effictive-icon">
+                                            <i class="fa-solid fa-backspace"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-ChefsTips" role="tabpanel"
+                            aria-labelledby="nav-ChefsTips-tab" tabindex="0">...</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--home-end-->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
